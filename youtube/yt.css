@@ -1,3 +1,4 @@
+/* Almost all of the styles are taken form https://github.com/catppuccin/userstyles/blob/main/styles/youtube/catppuccin.user.less link other than some addons at the last lines. */
 @-moz-document domain("youtube.com") {
     :root[dark] {
         #catppuccin(@darkFlavor);
