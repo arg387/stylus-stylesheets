@@ -1177,4 +1177,23 @@
         background: #0000008a !important;
         border-color: rgb(77, 192, 227) !important;
     }
+    /* Solved inconsistancy in shorts ui */
+    .navigation-container.ytd-shorts {
+      height: 100%;
+      position: absolute;
+      right: 0;
+      display: -moz-box;
+      display: flex;
+      -moz-box-orient: vertical;
+      -moz-box-direction: normal;
+      flex-direction: column;
+      -moz-box-pack: var(--reels-navigation-justify-content);
+      justify-content: var(--reels-navigation-justify-content);
+      pointer-events: none;
+      gap: var(--ytd-margin-4x);
+      padding-right: var(--ytd-margin-6x);
+      padding-left: var(--ytd-margin-4x);
+      background: #1e1e2e;
+      transition: right .3s linear,background .3s linear;
+    }            
 }
