@@ -1232,6 +1232,11 @@
         transition: background-color .2s cubic-bezier(.05,0,0,1);
 
     }
+    .ytp-delhi-modern .ytp-chapter-title.ytp-button:hover::after {
+        background-color: #1e1e2e4f;
+        -webkit-transition: background-color .2s cubic-bezier(.05,0,0,1);
+        transition: background-color .2s cubic-bezier(.05,0,0,1);
+    }            
 }
 
 @-moz-document url-prefix("https://studio.youtube.com") {
