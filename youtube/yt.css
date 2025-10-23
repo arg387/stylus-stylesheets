@@ -1231,7 +1231,11 @@
   :root[dark] .ytSearchboxComponentSuggestionsContainer, :root[dark] .ytSearchboxComponentSuggestionsContainerDark {
       background: rgba(14, 14, 27, 0.61) !important;
       border-color: var(--yt-spec-raised-background) !important;
-  }  
+  }
+  .navigation-container.ytd-shorts {
+      background: #1e1e2e;
+  }
+  /*********/  
 }
 
 @-moz-document url-prefix("https://studio.youtube.com") {
